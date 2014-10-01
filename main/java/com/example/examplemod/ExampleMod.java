@@ -12,9 +12,9 @@ public class ExampleMod
     public static final String VERSION = "1.0";
     
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-		// some example code
-        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+    public void init(FMLInitializationEvent event) {
+	
+        System.out.println(Blocks.anvil.getCreativeTabToDisplayOn());
+      
     }
 }
